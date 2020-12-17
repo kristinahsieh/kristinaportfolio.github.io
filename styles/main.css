@@ -1,0 +1,14 @@
+header {
+  background: url(../images/Vector7.png) center / cover;
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.resume {
+  max-width: 800px;
+}
