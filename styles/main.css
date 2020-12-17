@@ -1,3 +1,20 @@
+body {
+  font-family: Muli;
+}
+
+.casestudy {
+  padding-top: 1.3em;
+}
+
+.connect{
+  float: left;
+  font-size: .6em;
+}
+
+.footerlinks {
+  font-size: .6em;
+}
+
 header {
   background: url(../images/Vector7.png) center / cover;
   height: 60vh;
@@ -5,10 +22,49 @@ header {
   text-align: center;
 }
 
+h2 a {
+  text-decoration: none;
+  color: #424d53;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 7em;
+}
+
 img {
   width: 100%;
+  max-width: 500px;
+  justify-content: center;
+}
+
+li {
+  display: inline;
+  float: right;
+  padding: 8px;
+}
+
+li a{
+  text-decoration: none;
+  color: #424d53;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+li a:hover{
+  color: #ffa54f;
+}
+
+.miniheader{
+  padding-top: 7em;
 }
 
 .resume {
   max-width: 800px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
