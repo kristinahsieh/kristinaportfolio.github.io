@@ -3,12 +3,16 @@ body {
 }
 
 .casestudy {
-  padding-top: 1.3em;
+  padding-top: 1.5em;
 }
 
 .connect{
   float: left;
   font-size: .6em;
+}
+
+.container {
+  max-width: 800px;
 }
 
 .footerlinks {
@@ -17,7 +21,7 @@ body {
 
 header {
   background: url(../images/Vector7.png) center / cover;
-  height: 60vh;
+  height: 70vh;
   justify-content: center;
   text-align: center;
 }
@@ -59,8 +63,22 @@ li a:hover{
   padding-top: 7em;
 }
 
+.projectheader{
+  height: 80vh;
+}
+
 .resume {
   max-width: 800px;
+}
+
+.resumeheader{
+  height: 45vh;
+}
+
+section{
+  margin: auto;
+  display: block;
+  text-align: center;
 }
 
 ul {
